@@ -1,11 +1,11 @@
 package org.first;
 
-public class Restaurant {
-	HotDrink hotDrink;
-	Restaurant(HotDrink hotDrink) {
-		this.hotDrink = hotDrink;
+public class Organization {
+	HotItem hotItem;
+	Organization(HotItem hotDrink) {
+		this.hotItem = hotDrink;
 	}
 	public void prepareHotDrink() {
-		hotDrink.prepareHotDrink();
+		hotItem.prepareHotDrink();
 	}
 }

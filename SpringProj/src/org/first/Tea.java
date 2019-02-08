@@ -1,6 +1,6 @@
 package org.first;
 
-public class Tea implements HotDrink {
+public class Tea implements HotItem {
 
 	@Override
 	public void prepareHotDrink() {

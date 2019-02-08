@@ -7,7 +7,7 @@ public class TestSpring {
 public static void main( String[] args) {
 	ApplicationContext context = new ClassPathXmlApplicationContext("Config.xml");
 	//ApplicationContext context = new ClassPathXmlApplicationContext("testConfig.xml");
-	Restaurant objRest = (Restaurant) context.getBean("helloBean");
+	Organization objRest = (Organization) context.getBean("helloBean");
 	objRest.prepareHotDrink();
 }
 }

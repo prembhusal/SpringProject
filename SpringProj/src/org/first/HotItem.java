@@ -1,6 +1,6 @@
 package org.first;
 
-public interface HotDrink {
+public interface HotItem {
 
 	public void prepareHotDrink();
 }
